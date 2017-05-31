@@ -1,0 +1,43 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de JS">
+	<meta name="generator" content="Visual Studio Code">
+	<meta charset="UTF-8">
+	<title>Comprobar frases</title>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+	<script src="../node_modules/angular/angular.min.js"></script>
+</head>
+
+<body ng-app="miApp" ng-controller="MainController as $ctrl">	 	
+	<header>
+		<h1>Comprobar frases</h1>
+	</header>
+	<article>
+
+		<p>Elije uno de los ejemplos si no quieres escribir</p>
+		<ol id="olSamples"></ol>
+
+		<form name="formulario">
+			<label for="sFrase" id="lblNombre">Escribe una frase</label>
+			<input type="text" id="sFrase" name="sFrase" ng-model="$ctrl.frase">
+			<label></label>
+			<input type="button" id="btnComprobar" value="comprobar" ng-click="$ctrl.comprobar()">
+			<input type="button"  id="btnBorrar" value="Borrar frase" ng-click="$ctrl.btnBorrar()">	
+		</form>
+
+		<p id="sRespuesta" class="destacado">{{$ctrl.frase}}</p>
+		
+	</article>
+	<footer>
+		<p>Daniel Garcia Lindo- Madrid 2017</p>
+	</footer>
+	<script type="text/javascript" src="js/formulario.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

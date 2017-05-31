@@ -1,0 +1,25 @@
+{
+  "name": "js-repaso",
+  "version": "1.0.0",
+  "description": "javascript repaso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danicrom7/js-repaso.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "daniel garcia lindo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danicrom7/js-repaso/issues"
+  },
+  "homepage": "https://github.com/danicrom7/js-repaso#readme",
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
