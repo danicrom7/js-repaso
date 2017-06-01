@@ -1,5 +1,5 @@
 {
-  "name": "js-repaso",
+  "name": "jqrepaso",
   "version": "1.0.0",
   "description": "javascript repaso",
   "main": "index.js",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/danicrom7/js-repaso#readme",
   "dependencies": {
-    "angular": "^1.6.4"
-  }
+    "angular": "^1.6.4",
+    "jquery-ui": "^1.12.1"
+  },
+  "devDependencies": {}
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ <html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>animaciones</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            img{
+                position: relative;left: 10px;}
+        </style>
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        
+        <img src="../4_jquery/image/peke.jpg">
+
+        <button id="btn" type="button">Animar la imagen</button>
+
+<script>
+ $("#btn").click(function() {
+  $("img" ).animate({
+    opacity: 0.25,
+    left: "+=50",
+    height: "toggle"
+  }, 8000, function() {
+    // Animation complete.
+  });
+});
+
+        </script>
+    </body>
+</html>
