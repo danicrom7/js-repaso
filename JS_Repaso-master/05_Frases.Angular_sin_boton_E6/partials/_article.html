@@ -1,0 +1,25 @@
+﻿
+<article>
+
+	<p>Elije uno de los ejemplos si no quieres escribir</p>
+	<ol id="olSamples">
+			<li ng-repeat="sample in $ctrl.aSamples" 
+				ng-click = "$ctrl.actualizarInput($event)"
+				data-item="{{$index}}">
+				{{sample}}
+			</li>
+	</ol>
+
+	<form name="formulario">
+		<label for="inputFrase">Escribe una frase</label>
+		<input type="text" id="inputFrase" 
+			ng-model="$ctrl.sFrase"
+			ng-change="$ctrl.resto()">
+		<label></label>
+		<input type="button" value="Borrar frase"
+			ng-click="$ctrl.sFrase = ''">	
+	</form>
+
+	<p class="destacado">{{$ctrl.sRespuesta}}</p>
+	
+</article>

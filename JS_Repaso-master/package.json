@@ -1,0 +1,26 @@
+{
+  "name": "repaso",
+  "version": "1.0.0",
+  "description": "Ejercicios de repaso JS & AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alce65/JS_Repaso.git"
+  },
+  "keywords": [
+    "AngularJS", "JavaScript"
+  ],
+  "author": "Alejandro Cerezo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alce65/Angular/issues"
+  },
+  "homepage": "https://github.com/alce65/JS_Repasor#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-i18n": "^1.6.4"
+  }
+}
