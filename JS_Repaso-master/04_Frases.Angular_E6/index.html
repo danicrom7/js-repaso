@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<!-- Ejemplo de AngularJS;
+	... -->
+
+<html lang="es">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="keywords" content="web, learning, html5, css3, angularJS">
+	<meta name="author" content="Alejandro" >
+	<meta name="description" content="Ejercicios de JS">
+	<meta name="generator" content="Visual Studio Code">
+	<meta charset="UTF-8">
+	<title>Comprobar frases</title>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="icon" href="fav_icon.png">
+</head>
+
+
+<body ng-app = "appModule" ng-controller= "AppController as $ctrl">
+
+	<ng-include src=" 'partials/_header.html' "></ng-include>
+	<ng-include src=" 'partials/_article.html' "></ng-include>	
+	<ng-include src=" 'partials/_footer.html' "></ng-include>
+
+	<script type="text/javascript" src="../node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.module.js"></script>
+	<script type="text/javascript" src="js/app.controller.js"></script>
+</body>
+</html>

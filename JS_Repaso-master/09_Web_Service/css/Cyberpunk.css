@@ -1,0 +1,64 @@
+html, body {height: 100%}
+body {	font: 13px Arial, Helvetica, sans-serif; 
+		margin: 1em 1em;}
+header {min-height: 12em;
+		background-color: #b1a573;
+		background-image: url(../images/Landing_cyberpunk_city.jpg);}
+header h1 {	font-family: 'Audiowide', cursive;
+			font-size: 6em;
+			padding: 0.3em 0.5em;
+			margin: 0em;
+			color: red;}
+div#borde {width: 100%;
+			height: 1em;
+			background: url(../images/brillog.png) repeat;}
+
+section {width: 100%;
+		height: 100%;
+		background-color: #7093af;
+		background-image: url(../images/cyberpunk_city.jpg);
+		overflow: auto;}
+nav { float: left; width: 20%; }
+nav p {	padding: 1em 2em;
+		color: white;}		
+article { float: left; width: 79%; }
+article h2 {font-family: 'Audiowide', cursive;
+			font-size: 1.2em; 
+			color: white;
+ 			margin-bottom: 0; 
+			padding: 1em 2em;}
+article div {	border: 2px solid #CCC;
+				background: rgba(191,236,255,0.8) ;
+				padding: 1em;
+				min-height: 400px;
+				max-height: 600px;
+				overflow: auto;
+				float: left;
+				width: 60%}
+article img {	width: 33%;
+			 	float: left;
+			 	margin: 0em 0.6em;
+				border-radius: 12px;}
+
+nav img {	width: 35%;
+			margin: 0.3em 0.8em;}
+
+img	{	border: 1px solid black;
+		
+		background-image: -webkit-gradient(linear, center top, center bottom, from(#fcfcfc), to(#bfbfbf), color-stop(3%, #f7f7f7), color-stop(12%, #f2f2f2), color-stop(90%, #d9d9d9));
+		background-image: -webkit-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+		background-image: -moz-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+		background-image: -o-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+		background-image: -ms-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+		background-image: linear-gradient(to bottom, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+		-webkit-box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.75);
+		-moz-box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.75);
+		box-shadow: 5px 2px 5px 3px rgba(0,0,0,0.75);
+		}
+
+dt {float: left; /*Campo (termino)*/
+	clear: left;
+	width: 20%;
+	color: maroon;} 
+dd {float: left;} /*Valor (definición)*/	
+img.icono {width: 30%}
